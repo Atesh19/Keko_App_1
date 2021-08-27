@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Keko_App_1</string>
+    <string name="nigth_clock">4:00 AM</string>
+    <string name="tempreture">Temp</string>
+    <string name="city">MOSCOW</string>
+    <string name="_18_00_pm">18:00 PM</string>
 </resources>
