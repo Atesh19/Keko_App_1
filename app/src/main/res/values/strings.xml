@@ -4,4 +4,13 @@
     <string name="tempreture">Temp</string>
     <string name="city">MOSCOW</string>
     <string name="_18_00_pm">18:00 PM</string>
+    <string name="_20_c">20 C</string>
+    <string name="_30_c">30 C</string>
+    <string name="_10_c">10 C</string>
+    <string name="_12_00_pm">12:00 PM</string>
+    <string name="_30">30%</string>
+    <string name="_200">200</string>
+    <string name="wind">Wind</string>
+    <string name="humidity">Humidity</string>
+    <string name="view_detail">View Detail</string>
 </resources>

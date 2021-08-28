@@ -3,9 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient"
-
-    >
+    android:background="@drawable/gradient">
 
 
     <View
@@ -33,12 +31,9 @@
     <View
         android:id="@+id/view4"
         android:layout_width="104dp"
-
         android:layout_height="206dp"
         android:background="@drawable/background"
         android:textColor="@color/black"
-
-
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toEndOf="@+id/view5"
@@ -47,7 +42,6 @@
     <View
         android:id="@+id/view5"
         android:layout_width="104dp"
-
         android:layout_height="206dp"
         android:layout_marginTop="48dp"
         android:background="@drawable/background"
@@ -63,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:backgroundTint="@color/material_on_background_emphasis_high_type"
-        android:text="View Detail"
+        android:text="@string/view_detail"
         app:cornerRadius="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -86,7 +80,6 @@
 
     <TextView
         android:id="@+id/textView6"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tempreture"
@@ -97,7 +90,6 @@
 
     <TextView
         android:id="@+id/textView12"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -109,11 +101,10 @@
 
     <TextView
         android:id="@+id/textView13"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="20 C"
+        android:text="@string/_20_c"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
@@ -121,11 +112,10 @@
 
     <TextView
         android:id="@+id/textView14"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="30 C"
+        android:text="@string/_30_c"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
@@ -133,7 +123,6 @@
 
     <TextView
         android:id="@+id/textView16"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -145,11 +134,10 @@
 
     <TextView
         android:id="@+id/textView17"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="10 C"
+        android:text="@string/_10_c"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
@@ -157,11 +145,10 @@
 
     <TextView
         android:id="@+id/textView15"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="12:00 PM"
+        android:text="@string/_12_00_pm"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintHorizontal_bias="0.0"
@@ -170,10 +157,9 @@
 
     <TextView
         android:id="@+id/textView11"
-
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="30%"
+        android:text="@string/_30"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/textView8"
         app:layout_constraintStart_toStartOf="@+id/textView8"
@@ -181,10 +167,9 @@
 
     <TextView
         android:id="@+id/textView9"
-
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="200"
+        android:text="@string/_200"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/textView7"
         app:layout_constraintStart_toStartOf="@+id/textView7"
@@ -192,11 +177,10 @@
 
     <TextView
         android:id="@+id/textView10"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="10 C"
+        android:text="@string/_10_c"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/textView6"
         app:layout_constraintStart_toStartOf="@+id/textView6"
@@ -204,11 +188,10 @@
 
     <TextView
         android:id="@+id/textView7"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Wind"
+        android:text="@string/wind"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -216,10 +199,9 @@
 
     <TextView
         android:id="@+id/textView8"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Humidity"
+        android:text="@string/humidity"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/view2"
         app:layout_constraintStart_toEndOf="@+id/textView7"
@@ -227,7 +209,6 @@
 
     <ImageView
         android:id="@+id/imageView"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -239,7 +220,6 @@
 
     <ImageView
         android:id="@+id/imageView2"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -251,7 +231,6 @@
 
     <ImageView
         android:id="@+id/imageView3"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
