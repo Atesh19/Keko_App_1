@@ -7,7 +7,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.keko_app_1"
+        applicationId 'com.Atesh19.keko_app_1'
         minSdk 23
         targetSdk 31
         versionCode 1
